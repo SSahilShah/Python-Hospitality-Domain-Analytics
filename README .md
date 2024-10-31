@@ -41,6 +41,8 @@ To ensure efficient analysis, I replicated the bookings database as a **Data War
 
 ---
 
-## Files and Usage
-For a complete walkthrough of the data analytics process and insights, refer to the `.ipynb` file.
-This file provides an in-depth look at query implementations and insight generation techniques.
+# Files and Usage
+
+**For a complete walkthrough of the data analytics process and insights, refer to the .ipynb file. This file provides an in-depth look at query implementations and insight generation techniques.**
+
+[Click here](https://github.com/SSahilShah/Python-Hospitality-Domain-Analytics/blob/main/hotel_analysis.ipynb) to access the Jupyter Notebook.
