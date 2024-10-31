@@ -1,41 +1,66 @@
-# Python - Hospitality Domain Analytics
- ## Problem Statement
+# Ad-Hoc Insights Project - Documentation
 
-Atliq Grants is a hotel chain which operates in many cities of India. They have different types of hotels such as Atliq Seasons, Atliq Exotica, Atliq Bay, Atliq Palace, and each hotel also has different types of rooms such as Standard, Elite, Premium, Presidential. A person can book a hotel via different mediums such as Atliq Grants' own website and third-party websites such as Make Your Trip, Tripster, etc. The data of all the bookings goes into the bookings database of Atliq. Atliq Grants is facing a major challenge from their competitors. They are losing their revenue and market share. The main objective of this project is to create insights that helps them increase their revenue.
+## About AtliQ Hardwares
+AtliQ Hardwares is a leading fictional computer hardware manufacturer in India with a global reach. The company is dedicated to using data analytics to drive smart, informed business decisions.
 
-**My course of action:** &nbsp; Taking the role of the data analyst, I performed data analytics using Pandas on the Data Warehouse by pulling the data into Jupyter Notebook.
-Performing the queries directly on the bookings database is not ideal as it is a mission-critical database and doing that may slow down the database. Instead, I performed the analytics by creating a replica or a copy of the original database. (Created database is called as Data Warehouse)
+---
 
-## Steps implemented 
-  ### 1) Data Understanding:
-  This phase involves getting familiar with the dataset we're working with. It includes understanding the structure of the data, the meaning 
-  of each column or attribute, the data types, and any potential issues or limitations of the dataset.
-  ### 2) Data Exploration:
-  In this phase, we explore the data to uncover patterns, trends, or relationships within the dataset. This involves visualizing the 
-  data using graphs, charts, or other visualization techniques to identify interesting insights or anomalies.
-  ### 3) Data Cleaning:
-  Data cleaning is the process of identifying and correcting errors, inconsistencies, or missing values in the dataset to ensure its accuracy 
-  and reliability for analysis. This involves tasks such as removing duplicates, filling in missing values, correcting spelling errors, 
-  standardizing formats, and handling outliers.
-  ### 4) Data Transformation:
-  Data transformation involves preparing the dataset for analysis by transforming or reshaping the data to make it suitable for the chosen 
-  analytical techniques or models. This includes tasks such as aggregating or summarizing data, creating new variables or features and 
-  normalizing
-  ### 5) Insights Generation:
-  The final phase of the data analytics process involves generating actionable insights or findings from the analyzed data. This includes 
-  identifying key trends, patterns, or relationships in the data, making predictions or forecasts based on analytical models, and answering 
-  specific business questions or objectives. Insights generated from data analytics can inform decision-making, drive business strategies, and 
-  optimize performance.
+## Project Challenge
+To improve its decision-making capabilities, AtliQ Hardwares aimed to expand its analytics team by hiring junior data analysts skilled in both technical and interpersonal abilities. To identify qualified candidates, Tony Sharma, Director of Data Analytics, created a SQL-based challenge to assess these skills.
 
+---
 
+## Project Overview: My Role and Responsibilities
+As part of the application for the junior data analyst role, I was tasked with:
+- **Analyzing Requests**: Reviewed `ad-hoc-requests.pdf`, which contained 10 unique business requests needing data insights.
+- **Data Extraction**: Crafted SQL queries to retrieve relevant data for each request.
+- **Data Visualization**: Utilized Power BI to create clear, impactful visualizations that communicated key insights.
+- **Executive Presentation**: Designed a PowerPoint presentation for top management, showcasing insights and actionable recommendations.
 
------------------------------------------------------------------------------------------------------------------
+---
 
-***- Mandatory skill :***
+## Project Approach
 
-💡 PANDAS play the key role in this project.
+### 1. SQL Data Extraction
+   - Wrote and executed SQL queries in **MySQL** to extract data aligned with each business requirement from the ad-hoc request document.
 
------------------------------------------------------------------------------------------------------------------
+### 2. Visualization with Power BI
+   - Developed visualizations in **Power BI** to make complex insights accessible, engaging, and actionable for the management team.
 
-***✨Take a look at the .ipynb extension file to get a better idea of how the queries were implemented and insights were generated.***
+### 3. Presentation Design
+   - Created a professional PowerPoint presentation to effectively communicate insights and recommendations, tailored to the needs of top-level decision-makers.
 
+### 4. Delivering Actionable Insights
+   - Offered strategic recommendations based on analysis to support AtliQ Hardwares' leadership in making data-informed choices.
+
+---
+
+## Project Outcome
+This project demonstrated my capacity to manage complex data queries, create clear data visualizations, and effectively present insights. The experience sharpened my technical skills and strengthened my ability to communicate data-driven findings for business impact.
+
+---
+
+## Repository Contents
+- **ad-hoc-requests.pdf**: Document listing the 10 business questions to be answered.
+- **SQL Queries**: Folder containing SQL scripts used for data extraction.
+- **Power BI Visualizations**: Folder with Power BI files that display visualized insights.
+- **Presentation**: PowerPoint file for management, presenting insights and strategic recommendations.
+
+---
+
+## Usage Guide
+
+### SQL Queries
+1. Navigate to the `SQL Queries` folder.
+2. Run the SQL scripts in your MySQL environment to generate data for each business request.
+
+### Power BI Visualizations
+1. Open the Power BI files in Power BI Desktop.
+2. Review and interact with visualizations for each business query.
+
+### Presentation
+1. Open the PowerPoint file to access the insights and recommendations structured for executive review.
+
+---
+
+This project illustrates my proficiency in SQL, Power BI, and presenting data insights to drive informed business decisions.
