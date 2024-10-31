@@ -1,66 +1,46 @@
-# Ad-Hoc Insights Project - Documentation
+# Python - Hospitality Domain Analytics
 
-## About AtliQ Hardwares
-AtliQ Hardwares is a leading fictional computer hardware manufacturer in India with a global reach. The company is dedicated to using data analytics to drive smart, informed business decisions.
+## Project Overview
+**Atliq Grants** is a hotel chain operating across various Indian cities with diverse properties, including **Atliq Seasons, Atliq Exotica, Atliq Bay,** and **Atliq Palace**. Each hotel offers different room types, such as **Standard, Elite, Premium,** and **Presidential.** Bookings can be made through Atliq Grants' website and third-party platforms like **MakeMyTrip** and **Tripster.** 
 
----
-
-## Project Challenge
-To improve its decision-making capabilities, AtliQ Hardwares aimed to expand its analytics team by hiring junior data analysts skilled in both technical and interpersonal abilities. To identify qualified candidates, Tony Sharma, Director of Data Analytics, created a SQL-based challenge to assess these skills.
+Facing competitive challenges, Atliq Grants is experiencing declines in revenue and market share. This project aims to deliver data-driven insights to support revenue growth and enhance market position.
 
 ---
 
-## Project Overview: My Role and Responsibilities
-As part of the application for the junior data analyst role, I was tasked with:
-- **Analyzing Requests**: Reviewed `ad-hoc-requests.pdf`, which contained 10 unique business requests needing data insights.
-- **Data Extraction**: Crafted SQL queries to retrieve relevant data for each request.
-- **Data Visualization**: Utilized Power BI to create clear, impactful visualizations that communicated key insights.
-- **Executive Presentation**: Designed a PowerPoint presentation for top management, showcasing insights and actionable recommendations.
+## Project Scope
+
+### Objective
+The primary goal is to analyze booking data to uncover actionable insights that will help Atliq Grants improve revenue and retain its market share.
+
+### Methodology
+To ensure efficient analysis, I replicated the bookings database as a **Data Warehouse** and conducted the analysis using **Pandas** within Jupyter Notebook. Querying directly from the live database could impact performance, so this data warehouse serves as a non-disruptive replica for analysis.
 
 ---
 
-## Project Approach
+## Process Steps
 
-### 1. SQL Data Extraction
-   - Wrote and executed SQL queries in **MySQL** to extract data aligned with each business requirement from the ad-hoc request document.
+### 1. Data Understanding
+   - Familiarized with the dataset, including its structure, column meanings, data types, and any potential issues.
 
-### 2. Visualization with Power BI
-   - Developed visualizations in **Power BI** to make complex insights accessible, engaging, and actionable for the management team.
+### 2. Data Exploration
+   - Explored and visualized data to identify patterns, trends, and anomalies using graphs and charts.
 
-### 3. Presentation Design
-   - Created a professional PowerPoint presentation to effectively communicate insights and recommendations, tailored to the needs of top-level decision-makers.
+### 3. Data Cleaning
+   - Ensured data accuracy by addressing errors, inconsistencies, and missing values through tasks like removing duplicates, filling gaps, and standardizing formats.
 
-### 4. Delivering Actionable Insights
-   - Offered strategic recommendations based on analysis to support AtliQ Hardwares' leadership in making data-informed choices.
+### 4. Data Transformation
+   - Prepared data for analysis by reshaping, summarizing, and creating new variables where necessary for further insights.
 
----
-
-## Project Outcome
-This project demonstrated my capacity to manage complex data queries, create clear data visualizations, and effectively present insights. The experience sharpened my technical skills and strengthened my ability to communicate data-driven findings for business impact.
+### 5. Insights Generation
+   - Generated actionable insights by identifying trends, forecasting patterns, and addressing key business questions to support data-driven decision-making.
 
 ---
 
-## Repository Contents
-- **ad-hoc-requests.pdf**: Document listing the 10 business questions to be answered.
-- **SQL Queries**: Folder containing SQL scripts used for data extraction.
-- **Power BI Visualizations**: Folder with Power BI files that display visualized insights.
-- **Presentation**: PowerPoint file for management, presenting insights and strategic recommendations.
+## Key Skill
+- **💡 PANDAS** was central to the data analysis in this project.
 
 ---
 
-## Usage Guide
-
-### SQL Queries
-1. Navigate to the `SQL Queries` folder.
-2. Run the SQL scripts in your MySQL environment to generate data for each business request.
-
-### Power BI Visualizations
-1. Open the Power BI files in Power BI Desktop.
-2. Review and interact with visualizations for each business query.
-
-### Presentation
-1. Open the PowerPoint file to access the insights and recommendations structured for executive review.
-
----
-
-This project illustrates my proficiency in SQL, Power BI, and presenting data insights to drive informed business decisions.
+## Files and Usage
+For a complete walkthrough of the data analytics process and insights, refer to the `.ipynb` file.
+This file provides an in-depth look at query implementations and insight generation techniques.
